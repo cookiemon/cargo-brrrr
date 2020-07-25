@@ -1,0 +1,62 @@
+[package]
+name = "cargo-brrrr"
+version = "0.1.0"
+authors = ["Cookiemon <rhannek@gmx.de>"]
+edition = "2018"
+autobins = false
+default-run = "cargo-brrrr"
+description = "Car go brrrrrrrrrrrrrrrrrrrrrrrrr"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cookiemon/cargo-brrrr"
+
+[features]
+default = ["pollute"]
+pollute = []
+
+[dependencies]
+terminal_size = "=0.1.13"
+ctrlc = "=3.1.5"
+
+[[bin]]
+name = "cargo-br"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brr"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brrr"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brrrr"
+path = "src/main.rs"
+
+[[bin]]
+name = "cargo-brrrrr"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brrrrrr"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brrrrrrr"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brrrrrrrr"
+path = "src/main.rs"
+required-features = ["pollute"]
+
+[[bin]]
+name = "cargo-brrrrrrrrr"
+path = "src/main.rs"
+required-features = ["pollute"]
